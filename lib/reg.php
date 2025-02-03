@@ -29,7 +29,7 @@ $salt = '56s89_)(*&';
 $password = md5($salt . $password);
 
 // DB
-$pdo = new PDO('mysql:host=localhost;dbname=php-website;port=3306', 'root', 'root');
+require "db.php";
 
 // INSERT
 $sql = 'INSERT INTO users(login, username, email, password) VALUES(?, ?, ?, ?)';
