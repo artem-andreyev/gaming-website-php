@@ -19,21 +19,21 @@
             <form method="post" action="/lib/reg.php">
                 <div class="inline">
                     <div>
-                        <label>Username</label>
-                        <input type="text">
+                        <label>Login</label>
+                        <input type="text" name="login">
                     </div>
                     <div>
-                        <label>First Name</label>
-                        <input type="text">
+                        <label>Name</label>
+                        <input type="text" name="username">
                     </div>
                 </div>
                 <label>Email Address</label>
-                <input type="email" class="one-line">
+                <input type="email" class="one-line" name="email">
 
                 <label>Password</label>
-                <input type="email" class="one-line">
+                <input type="password" class="one-line" name="password">
 
-                <button type="button">Sign up</button>
+                <button type="submit">Sign up</button>
             </form>
         </div>
     </div>
